@@ -1,9 +1,9 @@
-const express= require ('express')
-const cors = require('cors')
-const mongoose = require('mongoose')
-const cookieParser = require('cookie-parser')
-const userRouter = require('./Routes/user')
-const adminRouter = require('./Routes/admin')
+const express= require ('express');
+const cors = require('cors');
+const mongoose = require('mongoose');
+const cookieParser = require('cookie-parser');
+const userRouter = require('./Routes/user');
+const adminRouter = require('./Routes/admin');
 const dbConnect = require("./Config/dbConnection");
 
 require("dotenv").config()
